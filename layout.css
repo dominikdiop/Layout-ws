@@ -1,0 +1,100 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  width: 268px;
+  height: 33;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  float: right;
+  margin-top: 8px;
+  list-style-type: none;
+}
+
+.ADC a {
+  padding: 0 0.6em;
+  color: #ababab;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ADC .about {
+  color: #00b39b;
+}
+
+.header-section h1 {
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-top: 10px;
+}
+
+.career:hover {
+  color: #00b39b;
+}
+
+.departments:hover {
+  color: #00b39b;
+}
+
+.health-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 10%;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+.health-intro h1 {
+  color: #00b39b;
+}
+
+.para {
+  display: flex;
+}
+
+.para p {
+  width: 50%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.health-intro div {
+  /* width: 45%; */
+  padding: 3%;
+  line-height: 1.75;
+  justify-content: space-between;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+  justify-content: space-between;
+}
+
+.country {
+  margin-bottom: 2%;
+}
+
+.country:hover {
+  box-shadow: 10px 10px rgb(224, 220, 220);
+}
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.office {
+  text-align: center;
+}
+.office .country {
+  padding: 3% 5%;
+}
